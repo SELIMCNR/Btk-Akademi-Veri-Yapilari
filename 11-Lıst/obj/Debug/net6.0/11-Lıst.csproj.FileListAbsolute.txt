@@ -1,0 +1,15 @@
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\bin\Debug\net6.0\11-Lıst.exe
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\bin\Debug\net6.0\11-Lıst.deps.json
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\bin\Debug\net6.0\11-Lıst.runtimeconfig.json
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\bin\Debug\net6.0\11-Lıst.dll
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\bin\Debug\net6.0\11-Lıst.pdb
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\obj\Debug\net6.0\11-Lıst.csproj.AssemblyReference.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\obj\Debug\net6.0\11-Lıst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\obj\Debug\net6.0\11-Lıst.AssemblyInfoInputs.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\obj\Debug\net6.0\11-Lıst.AssemblyInfo.cs
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\obj\Debug\net6.0\11-Lıst.csproj.CoreCompileInputs.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\obj\Debug\net6.0\11-Lıst.dll
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\obj\Debug\net6.0\refint\11-Lıst.dll
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\obj\Debug\net6.0\11-Lıst.pdb
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\obj\Debug\net6.0\11-Lıst.genruntimeconfig.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\11-Lıst\obj\Debug\net6.0\ref\11-Lıst.dll

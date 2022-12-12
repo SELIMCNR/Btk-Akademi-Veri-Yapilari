@@ -1,0 +1,15 @@
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\bin\Debug\net6.0\10-ArrayLıst.exe
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\bin\Debug\net6.0\10-ArrayLıst.deps.json
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\bin\Debug\net6.0\10-ArrayLıst.runtimeconfig.json
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\bin\Debug\net6.0\10-ArrayLıst.dll
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\bin\Debug\net6.0\10-ArrayLıst.pdb
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\obj\Debug\net6.0\10-ArrayLıst.csproj.AssemblyReference.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\obj\Debug\net6.0\10-ArrayLıst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\obj\Debug\net6.0\10-ArrayLıst.AssemblyInfoInputs.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\obj\Debug\net6.0\10-ArrayLıst.AssemblyInfo.cs
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\obj\Debug\net6.0\10-ArrayLıst.csproj.CoreCompileInputs.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\obj\Debug\net6.0\10-ArrayLıst.dll
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\obj\Debug\net6.0\refint\10-ArrayLıst.dll
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\obj\Debug\net6.0\10-ArrayLıst.pdb
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\obj\Debug\net6.0\10-ArrayLıst.genruntimeconfig.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\10-ArrayLıst\obj\Debug\net6.0\ref\10-ArrayLıst.dll
