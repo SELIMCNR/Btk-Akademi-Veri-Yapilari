@@ -1,0 +1,30 @@
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\bin\Debug\net6.0\12-Metod.exe
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\bin\Debug\net6.0\12-Metod.deps.json
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\bin\Debug\net6.0\12-Metod.runtimeconfig.json
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\bin\Debug\net6.0\12-Metod.dll
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\bin\Debug\net6.0\12-Metod.pdb
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.csproj.AssemblyReference.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.AssemblyInfoInputs.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.AssemblyInfo.cs
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.csproj.CoreCompileInputs.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.dll
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\refint\12-Metod.dll
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.pdb
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.genruntimeconfig.cache
+C:\Users\SELİM ÇINAR\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\ref\12-Metod.dll
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\bin\Debug\net6.0\12-Metod.exe
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\bin\Debug\net6.0\12-Metod.deps.json
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\bin\Debug\net6.0\12-Metod.runtimeconfig.json
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\bin\Debug\net6.0\12-Metod.dll
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\bin\Debug\net6.0\12-Metod.pdb
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.csproj.AssemblyReference.cache
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.AssemblyInfoInputs.cache
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.AssemblyInfo.cs
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.csproj.CoreCompileInputs.cache
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.dll
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\refint\12-Metod.dll
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.pdb
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\12-Metod.genruntimeconfig.cache
+C:\Users\SelimCinar\Desktop\dersler\programlama\Veriyapıları ve Algoritma Giriş\Btk\12-Metod\obj\Debug\net6.0\ref\12-Metod.dll
