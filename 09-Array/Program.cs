@@ -6,73 +6,73 @@ using System.Threading.Tasks;
 
 namespace _09_Array
 {
-    internal class Program
+  /*
+ Diziler 
+ - Temel veri yapısıdır.
+ - Sabit boyutludur. 
+ 
+bellek te  indisler halinde tutulur 
+[0] , [1],[2]   gibi indisler 0 'dan başlar 
+
+
+char tipli dizilerde  1 byte yerkaplar her indisde
+int tipli dizilerde  4 byte yerkaplar her indisde
+
+--Dizilerin kendine özel metotları vardır 
+Rank  , length , IndexOf ,Copy gibi.
+
+ */
+
+// referans tipli ifade new ile başlatılmalı
+
+internal class Program
+{
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
+        // iki boyutlu dizi 
+        double[,] matris = new double[,] { { 1, 2, 3 }, { 2, 3, 4 } };
+        double toplam = 0;
+        for (int i = 0; i < matris.GetLength(0); i++)
         {
-            //double[,,]3boyutlu 2 virgül var ,double[,,,]4boyutlu
-            double[,] matris = new double[,] { { 1, 2, 3,3 }, { 2, 3, 4 ,5}, { 3, 4, 5 ,6}, };
-
-            double toplam = 0;
-
-            for (int i = 0; i < matris.GetLength(0); i++)
+            for (int j = 0; j < matris.GetLength(1); j++)
             {
-                for (int j = 0; j < matris.GetLength(1); j++)
+                if (i == j)
                 {
-                    if (i == j)
-                    {
-                        matris[i, j] = -1;
-                    }
-                    if (matris[i,j] % 2 ==0)
-                    {
-                        matris[i, j] = 0;
-                    }
-                    toplam += matris[i, j];
-                    Console.Write($"{matris[i,j],5}");
+                    matris[i, j] = -1;
                 }
-                Console.WriteLine();
+                if (matris[i, j] % 2 == 0)
+                {
+                    matris[i, j] = 0;
+                }
+                toplam += matris[i, j];
+                Console.Write($"{matris[i, j],5}");
             }
-            Console.WriteLine($"Toplam : {toplam}");
-           diziSample();
-
-            arrays();
-            Console.ReadKey();
+            Console.WriteLine();
         }
 
-        private static void diziSample()
-        {
-            Console.WriteLine("Dizi boyutunu giriniz. ");
-            int boyut = Convert.ToInt32(Console.ReadLine());
+        foreachAndDizi();
+        Arrays();
 
-            int[] sayilar = new int[boyut]; //Boyutunu dışardan alan dizi 
-            var r = new Random(); //Random değerler objesi
-
-            for (int i = 0; i < sayilar.Length; i++)
-            {
-                sayilar[i] = r.Next(1, 10); //Rastgele 1 ile 10 arası atama
-
-            }
-            foreach (int s in sayilar) // foreach koleksiyonları döndürmede kullanılır.
-            {
-                Console.WriteLine($"{s,5} {s * s,5}"); //sayilar dizisinde rastgele sayılar döndürülüyor
-            }
-        }
-
-        private static void arrays()
+        static void Arrays()
         {
 
-            //Arrays -Diziler
-            //Diziler 0.indeksten başlar,sabit boyutludur
-            int[] numaralar;//dizi tanımı 
+            //Tanımlama 
+            int[] numaralar;
 
-            // başlatma
-            numaralar = new int[3]; //3 indisli atama yapılacak
-            numaralar[0] = 3; //0.indese atama yapıldı
-            numaralar[1] = 5;
-            numaralar[2] = 7;
+            // başlatma 
+            numaralar = new int[3]; // 3 indis kutulu bir dizi oluştu
 
-            //2.yöntem dizi tanımlama & başlatma
-            int[] numaralar1 = new int[3];
+            numaralar[0] = 0;   //ilk indise kutuya 0 değerini at
+            numaralar[1] = 5;   //ikinci indise kutuya 5 değerini at
+            numaralar[2] = 7;   //ücüncü indise kutuya 7 değerini at
+
+            //Dizilerde dolaşım yap dizi uzunluğunca döngü dönsün
+            for (int i = 0; i < numaralar.Length; i++)
+            {
+                //Dizideki indis kutuların içinde değerleri yazdır.
+                Console.WriteLine(numaralar[i]);
+            }
+
 
             //3.yöntem dizi tanımlama & başlatma & atama
             int[] numaralar3 = new int[] { 3, 5, 7, 8, 10 };
@@ -80,10 +80,40 @@ namespace _09_Array
             //4.yöntem dizi tanımlama & başlatma & atama
             int[] numaralar4 = { 3, 5, 7, 8, 10 };
 
-            for (int i = 0; i < numaralar.Length; i++)
+
+            /* Pratik yöntem tanımlama başlatma atama*/
+            int[] numaralar2 = { 3, 5, 7, 8, 10, 11 };
+            for (int i = 0; i < numaralar2.Length; i++)
             {
-                Console.WriteLine($"numaralar[{i}] = {numaralar[i]} ");
+                Console.WriteLine($"Numaralar[{i}] = " + "${ numaralar2[i] }");
+            }
+
+        }
+
+
+        Console.ReadKey();
+
+        static void foreachAndDizi()
+        {
+            Console.WriteLine("Dizi boyutunu giriniz");
+            //Dışardan boyut dizide olacak indis kutu bilgisi alındı
+            int boyut = Convert.ToInt32(Console.ReadLine());
+            //Random sayı almak
+            var r = new Random();
+            //Dizi tanımı
+            int[] sayilar = new int[boyut];
+
+            for (int i = 0; i < sayilar.Length; i++)
+            {
+                sayilar[i] = r.Next(1, 10);  // 1 ve 10 arasında rastgele sayı ata
+            }
+
+            //Foreach : Koleksiyonlardaki değerleri döndürmek yazdırmak için kullanılır.
+            foreach (var s in sayilar)
+            {
+                Console.WriteLine($"{s,5} {s * s,5}");
             }
         }
     }
+}
 }
