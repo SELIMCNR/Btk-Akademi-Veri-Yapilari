@@ -10,18 +10,28 @@ namespace _02_Verı
     {
         static void Main(string[] args)
         {
-            int x = 5;
-            int y = 2 * x;
-            Console.WriteLine(y.GetType()); // veri tipini gösteriyor
-            Console.WriteLine(y);
-            Console.ReadKey();
+           // See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
 
-            var x1 = "1";
-            var  x2 = "2";
-            var toplam=x1 + x2;
-            Console.WriteLine(toplam.GetType());
-            Console.WriteLine(toplam);
-            Console.ReadKey();;
+double x;
+x = 2.5;
+
+var y = 2 * x;
+Console.WriteLine(y.GetType()); //Mevcut örneğin tipini getirir.
+
+
+Console.WriteLine(y);
+
+
+var n = "2";
+var m = "3";
+var l = n + m;  // + işareti string ifadeleri birleştirir.
+Console.WriteLine(l.GetType());
+Console.WriteLine(l);
+
+Console.ReadKey();
+
+
 
         }
     }
