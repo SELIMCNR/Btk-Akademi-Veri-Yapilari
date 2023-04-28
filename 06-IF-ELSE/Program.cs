@@ -24,12 +24,13 @@ else {
 --k karaktermi 
  */
 
-//K karaktermi
+
 
 internal class Program
 {
     private static void Main(string[] args)
     {
+        //K karaktermi
         var k = (char)Console.Read(); //Dışardan gelen değeri tutar.
         if (char.IsDigit(k))
         {
