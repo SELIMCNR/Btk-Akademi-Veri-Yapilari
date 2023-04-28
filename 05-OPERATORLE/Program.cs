@@ -8,32 +8,34 @@ namespace _05_OPERATORLE
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            int A, B;
-            A = 20;
-            B = 10;
+          private static void Main(string[] args)
+    {
+        int sayi1 = 20, sayi2 = 10;
 
-            // Aritmetik operatörler 
-            Console.WriteLine(A-B);
-            Console.WriteLine(A+B);
-            Console.WriteLine(A*B);
-            Console.WriteLine(A/B);
-            Console.WriteLine(A%B);
+        //Aritmetik operatörler 
+        Console.WriteLine(sayi1 + sayi2);
+        Console.WriteLine(sayi1 - sayi2);
+        Console.WriteLine(sayi1 * sayi2);
+        Console.WriteLine(sayi1 / sayi2);
+        Console.WriteLine(sayi1 % sayi2); // % kalan bulma mod
 
-            // İlişkisel operatörler
-            Console.WriteLine(A>B);
-            Console.WriteLine(A<B);
-            Console.WriteLine(A>=B);
-            Console.WriteLine(A<=B);
-            Console.WriteLine(A==B);
-            Console.WriteLine(A!=B);
-            
-            //MANTIKSAL 
-            Console.WriteLine(A>B && A<5);
-            Console.WriteLine(A<B || B>5);
 
-            Console.ReadKey();
-        }
+        //İlişkisel operatörler 
+        Console.WriteLine(sayi1 > sayi2);
+        Console.WriteLine(sayi1 < sayi2);
+        Console.WriteLine(sayi1 >= sayi2);
+        Console.WriteLine(sayi1 <= sayi2);
+        Console.WriteLine(sayi1 == sayi2);
+        Console.WriteLine(sayi1 != sayi2);
+
+
+        //Mantıksal operatörler
+        Console.WriteLine(sayi1 > sayi2 && sayi1 > 5);
+        Console.WriteLine(sayi1 < sayi2 || sayi2 > 5);
+
+
+
+        Console.ReadKey();
+    }
     }
 }
