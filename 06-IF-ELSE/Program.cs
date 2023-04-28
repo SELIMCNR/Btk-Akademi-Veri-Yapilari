@@ -56,7 +56,7 @@ internal class Program
 
         Console.ReadKey();
 
-        #region Tekciftornegi
+          #region Tekciftornegi
         static void tekCift()
         {
 
@@ -73,7 +73,7 @@ internal class Program
                 Console.WriteLine($"{sayi} sayısı tektir ");
             }
         }
-
+        #endregion
         static void mutlakDeğer()
         {
             //Mutlak değer
@@ -92,6 +92,5 @@ internal class Program
     }
 }
 
-#region Tekciftornegi
-#endregion
+
 }
