@@ -8,108 +8,150 @@ namespace _08_loops
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
+    /*
 
-            forLoops();
-            //doWhıle();
-            // whıleLoops2();
-            //whıleLoops();
+Döngüler ve çeşitleri 
+
+--for  for (int i =0; i<10; i++){işlemleri yap}
+--while
+--do-while
+--foreach
+
+ */
+
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        forLoop();
+
+        doWhileOrnek();
+
+        whileOrnek();
+
+        Console.ReadKey();
+
+        static void whileOrnek()
+        {
+            //While döngü i ken anlamında
+            #region while örnek
+            int i = 1;
+            int sayac = 0;
+            while (i < 10)  //doğru olduğu sürece çalış 
+            {
+                sayac++;
+                Console.WriteLine("Döngü bloğu!");
+                Console.WriteLine(i);
+                i++;   //i değerini artır.
+            }
+            Console.WriteLine("Döngü sonu");
             Console.ReadKey();
+            #endregion
+            #region while örnek 2 
+            int sayac1 = 1;
+            while (i <= 10)
+            {
+                Console.WriteLine("{0,-3} {1,-3} " + sayac1, sayac1 * sayac1); //5 Karakter boşluklu yaz 
+                sayac1 += 1;
+                //sayac++;  sayac = sayac + 1;
+                //sayac+=1; sayac = sayac + 1;
+            }
+            #endregion
+            #region while örnek 3 
+            int sayac2 = 10;
+            while (i > 0)
+            {
+                Console.WriteLine("{0,-3} {1,-3} " + sayac1, sayac2 * sayac2); //5 Karakter boşluklu yaz 
+                sayac2 -= 1;
+                //sayac--;  sayac = sayac - 1;
+                //sayac-=1; sayac = sayac - 1;
+            }
+            #endregion
         }
 
-        private static void forLoops()
+        static void doWhileOrnek()
         {
-            //For loops
-            /*
-                   //Sample One
-                   for (int i = 0; i <=1907; i+=5)
-                   {
-                       Console.WriteLine("Fenerbahçe {0}",i);
-                   }
+            Console.WriteLine("Bir sayi giriniz : ");
 
-
-                   //Sample two
-                   for (int i = 100; i >= 0; i -= 5)
-                   {
-                       Console.WriteLine("Fenerbahçe {0,7}", i);
-                   }
-
-                   int a = Convert.ToInt32(Console.ReadLine());
-                   int b = Convert.ToInt32(Console.ReadLine());    
-
-                   //Sample three kare alma işlemi
-                   for (int i = a; i <= b; i++)
-                   {
-                       Console.Write("{0,3} {1,3} ",i,i*i);
-                   }
-
-                   //Sample Four 
-                   for (int i = a; i <=b; i++)
-                   {
-                       if (i == 100)
-                           // continue; devam ettir
-                           break;
-                       Console.WriteLine("{0,3}",i);
-                   }
-            */
-            //Sample five
-            int n = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < n; i++)
+            int n = Convert.ToInt32(Console.ReadLine());
+            int i = n;
+            do
             {
-                for (int j = 0; j <= i; j++)
+                Console.Write("{0,3}", i);
+                i += 2;  // i = i + 2
+
+            } while (i < n);
+        }
+
+        static void forLoop()
+        {
+
+            #region içiçedöngü 
+            int n1 = 5;
+            for (int i11 = 0; i11 < n1; i11++)
+            {
+                for (int j = 0; j <= n1; j++)
                 {
-                    // Console.WriteLine(" {0},{1}",i+1,j+1);
-                    Console.Write(" * ");
+                    Console.WriteLine(" * ");
                 }
                 Console.WriteLine();
             }
-        }
 
-        private static void doWhıle()
-        {
-            //Klavyeden okunan çift sayılar 
 
-            Console.WriteLine("Bir sayı giriniz");
-            int n = Convert.ToInt32(Console.ReadLine());//dışardan girilen veriyi tutar
+            #endregion
 
-            int i = 2;
-            do   // koşula bakmadan bir kere yazdırır.
+            #region Girilen değerlerin arasını hesapla break
+            int ab = Convert.ToInt32(Console.ReadLine());
+            int ba = Convert.ToInt32(Console.ReadLine());
+            for (int i4 = ab; i4 <= ba; i4++)
             {
-                Console.Write("{0,3}", i);
-                i = i + 2; // i +=2 
+                if (i4 == 100)
+                {
+                    break;  //döngü kır
+                }
 
-            } while (i <= n);
-        }
-
-        private static void whıleLoops2()
-        {
-            int sayac = 10;
-            while (sayac > 0)
-            {
-                //Console.Write(" "+sayac+" ");//Yan yana yazılması için Console.Write();
-                //Console.Write("{0,-3}",sayac);//0 ifade gelecek 5 karakter boşluklu
-                Console.WriteLine("{0,-3} {1,-3}", sayac, sayac * sayac);
-                // sayac = sayac + 1;//sayac++; sayac +=1;
-                sayac = sayac - 1; // sayac-=1
+                Console.Write("{0,3}", i4);
             }
-        }
+            #endregion
 
-        private static void whıleLoops()
-        {
-
-            //While 
-            int i = 0; // koşul tanımlanması
-            int sayac = 0;  //sayac tanımlanması
-            while (i < 10)  //döngü başlangıç
+            #region Girilen değerlerin arasını hesapla
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            for (int i3 = a; i3 <= b; i3++)
             {
-                sayac++; //sayac artırım
-                Console.WriteLine(sayac); //sayac yazdırma
-                i++; //döngü artırma
-            }
+                if (i3 % 3 == 0)
+                {
+                    continue;  //devam ettir
+                }
 
-            Console.WriteLine("Döngü sonu.");
+                Console.Write("{0,3}", i3);
+            }
+            #endregion
+
+
+            #region Sayıların karesini gösterme
+            for (int i2 = 0; i2 < 10; i2++)
+            {
+                Console.WriteLine("{0,3} {1,3}", i2, i2 * i2);
+            }
+            #endregion
+
+            #region 100'den başla 5'er azalt 
+            for (int i1 = 100; i1 >= 0; i1 -= 5)
+            {
+                Console.WriteLine(i1);
+            }
+            #endregion
+
+            //5'er artış 50 'ye kadar 
+            for (int i = 0; i < 50; i += 5)
+            {
+
+                Console.WriteLine(i);
+            }
         }
     }
+}
+    }    
 }
