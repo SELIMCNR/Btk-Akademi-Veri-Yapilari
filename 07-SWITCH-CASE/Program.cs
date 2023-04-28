@@ -6,40 +6,57 @@ using System.Threading.Tasks;
 
 namespace _07_SWITCH_CASE
 {
-    internal class Program
+  /*
+ 
+ Koşul 
+durum 1 
+    Yapılacak işlemler ; break;
+durum 2 
+    Yapılacak işlemler ; break;
+durum 3 
+    Yapılacak işlemler ; break;
+varsayılan durum 
+    Yapılacak işlemler ; break;
+
+ */
+
+internal class Program
+{
+    enum Islemler
     {
-        enum Islemler   // listeleme işlemleri c # 
-        {
-            Toplama,
-            Cikarma,
-            Carpma,
-            Bolme
-        }
-
-        static void Main(string[] args)
-        {
-            int A = 10;
-            int B = 20;
-            // Islemler secim = (Islemler)1; // listeden eleman çağırma statik
-            Islemler secim = (Islemler)(new Random().Next(1, 4)); // new nesne oluşturdu random rastgele next 1,4 arası sayı
-            switch (secim)
-            {
-                case Islemler.Toplama:
-                    Console.WriteLine($"{A} + {B} = {A + B}");
-                    break;
-                case Islemler.Cikarma:
-                    Console.WriteLine($"{A} - {B} = {A - B}");
-                    break;
-                case Islemler.Carpma:
-                    Console.WriteLine($"{A} * {B} = {A * B}");
-                    break;
-                case Islemler.Bolme:
-                    Console.WriteLine($"{A} / {B} = {A / B}");
-                    break;
-            }
-
-
-            Console.ReadKey(); 
-        }
+        Toplama=1,
+        Cikarma=2,
+        Carpma=3,
+        Bolme=4
     }
+    private static void Main(string[] args)
+    {
+        int sayi1 = 10;
+        int sayi2 = 20;
+
+        //Random enumdan seçim al
+        Islemler secim = (Islemler)(new Random().Next(1, 4)); 
+
+        switch (secim)
+        {
+            case Islemler.Toplama:
+                Console.WriteLine($"{sayi1} + {sayi2} = {sayi1 + sayi2}");
+                break;
+            case Islemler.Cikarma:
+                Console.WriteLine($"{sayi1} - {sayi2} = {sayi1 - sayi2}");
+                break;
+            case Islemler.Carpma:
+                Console.WriteLine($"{sayi1} * {sayi2} = {sayi1 * sayi2}");
+                break;
+            case Islemler.Bolme:
+                Console.WriteLine($"{sayi1} / {sayi2} = {sayi1 / sayi2}");
+                break;
+            default:
+                Console.WriteLine("Geçersiz işlem ! ");
+                break;
+        }
+
+        Console.ReadKey();
+    }
+}
 }
