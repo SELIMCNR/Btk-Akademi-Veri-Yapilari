@@ -1,53 +1,68 @@
-﻿// See https://aka.ms/new-console-template for more information
+/*
+ ArrayList  ve  List <T>
+
+--Diziler sabit boyutludur ancak ArrayList yapısının boyutu 
+dinamik olarak artırılabilir.
+
+-ArrayList bir koleksiyondur 
+using System. ile projeye eklenir.
+Add(),AddRange(),Clear(),Contains gibi metotları var ve capacity ,count  gibi özellikleri var.
+ */
+
+//Tanımlama
 using System.Collections;
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        ArrayList arrayList = new ArrayList();
 
-Console.WriteLine("Hello, World!");
+        //Listeye ekleme 
+        arrayList.Add(10);
+        arrayList.Add("btk akademi");
+        arrayList.Add(true);
+        arrayList.Add('e');
 
-//Array List tanımlama
+        //Listede dolaşım görüntüleme
+        foreach (var arlist in arrayList)
+        {
+            Console.WriteLine($"{arlist}");
+        }
 
-var arrayList = new ArrayList();
+        //Listeye dizi ekleme
+        int[] numbers = new int[] { 23, 44, 55 };
+        arrayList.AddRange(numbers); //listeye diziyi ekle
+        Console.WriteLine();
 
-// Tanım ve ekleme
-var arrayList1 = new ArrayList(){  // liste oluşturma ve ekleme
-    10,"Btk Akademi",true,"e"
+        //Listede dolaşım görüntüleme
+        foreach (var arlist in arrayList)
+        {
+            Console.WriteLine($"{arlist}");
+        }
+        Console.WriteLine();
+        //Listedeki elemana indise göre erişim
+        Console.WriteLine(arrayList[4]);
+
+        //Listedeki elemana erişme ve atama değer değiştirme
+        int x = (int)arrayList[0];
+        Console.WriteLine(x + 10);
+
+        //Listedeki elemanı silme
+        arrayList.Remove(10);  //değeri 10 olanı sil
+        arrayList.RemoveAt(1); //1.indiste elemanı sil
+        arrayList.RemoveRange(3, 5); // 3ile 5 arasında değerleri sil
+
+
+
+        //Pratik yöntem  tanımlama ve ekleme
+        var arrayList2 = new ArrayList()
+{
+    10,"Btk",false,'f'
 };
+        Console.WriteLine(arrayList2[2]);
 
-// ekleme yapma
-arrayList.Add(10);
-arrayList.Add("BTK Akademi");
-arrayList.Add(true);
-arrayList.Add("e");
 
-int[] sayilar = new int[] { 23, 44, 55 };
-arrayList.AddRange(sayilar); // listeye diziden rastgele sayı eklme
 
-//Dolaşma 
-Console.WriteLine();
-foreach (var e in arrayList)
-{
-    Console.Write($"{e}");
+        Console.ReadKey();
+    }
 }
-Console.WriteLine();
-Console.WriteLine(arrayList[4]); // elemana erişim
-
-
-
-
-
-
-// elemana erişim - atama
-int x = (int)arrayList[0];
-Console.WriteLine(x + 10);
-Console.ReadKey();
-
-// Elaman silme 
-arrayList.Remove(10); // içine yazılan elemanı siler 
-arrayList.RemoveAt(1); // indise göre siler
-arrayList.RemoveRange(3, 3); // 3.indisten başla 3 eleman sil  
-//Dolaşma 
-Console.WriteLine();
-foreach (var e in arrayList)
-{
-    Console.Write($" {e} ");
-}
-
