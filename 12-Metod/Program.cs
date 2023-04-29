@@ -1,102 +1,124 @@
-﻿
+
 
 internal class Program
 {
+    /*
+ Metotlar
+
+-Metot / Fonksiyon / Yordam / Altyordam
+-Tekrar eden değerlerde kullanılır.
+-Erişim belirteci public ,internal ,protectec,private  Dönüş tipi varsa int,double vs  yoksa void olur
+Metot adı (parametre listesi )
+
+- Static herhangi bir nesneye ihtiyaç olmadan metodu çalıştırır.
+
+ 
+ 
+ */
     private static void Main(string[] args)
     {
-        // Overloading aşırı yükleme yapma
-        var odenecekMiktar = SatisYap(100);
+        Karsilastir();
+        Console.WriteLine("Metot bitti.");
+
+        int buyuk = Karsilastir2(3, 5);
+        Console.WriteLine(buyuk);
+
+        int big = Karsilastir3(25, 30);
+        Console.WriteLine(big);
+
+        var x = KareAl(3);
+        double y = KareAl(x);
+        Console.WriteLine(x);
+        Console.WriteLine(y);
+
+
+        //Parametresi sonsuz olan fonksiyon 
+        double toplam = SeriToplami(5.5, 15.0, 25.5);
+        Console.WriteLine("{0,5:0.## }", toplam);
+
+        var odenecekMiktar = SalesUs(5.5);
         Console.WriteLine(odenecekMiktar);
 
-        var odenecekMiktar2 = SatisYap(100, .1);
-        Console.WriteLine(odenecekMiktar2);
+
+        var odenecekMiktar2 = SalesUs(100, .2);
+        Console.WriteLine("{0,5:0.##}", odenecekMiktar2);
 
 
+        Console.WriteLine(odenecekMiktar);
 
 
-
-
-        /// <summary>
-        /// Satiş yapan fonksiyon
-        /// </summary>
-         static double SatisYap(double miktar=0)
-        {
-            return miktar * 1.18;
-        }
-        /// <summary>
-        /// Satiş yapan fonksiyon
-        /// </summary>
-        static double SatisYap(double miktar, double indirim)
-        {
-            return miktar * (1.0 - indirim) * 1.18;
-        }
-
-        MetotTasarimi();
         Console.ReadKey();
-
-
-        // Metod Tanımı
+    }
+    /// <summary>
+    /// Satış yapan fonksiyon
+    /// </summary>
+    /// <param name="miktar"></param>
+    /// <param name="indirim"> </param>
+    /// <returns> </returns>
         static void Karsilastir()
         {
-            Console.WriteLine("Karsilastir metodu calisti.");
-            Console.WriteLine(" . ");
-            Console.WriteLine(" . ");
+            Console.WriteLine("Karsilastir calisti.");
+            Console.WriteLine(".");
+            Console.WriteLine(".");
         }
-        //Metod 2. yöntem
-        static int sayiKarsilastir(int A, int B)
+        static int Karsilastir2(int sayi1, int sayi2)
         {
-            if (A > B)
-            {
-                return A;
+            if (sayi1 > sayi2)
+            {  //sayi1 büyükse sayi1 değeri dön
+                return sayi1;
+
             }
             else
-            {
-                return B;
+            {   //sayi 2 büyükse sayi2 değeri dön
+                return sayi2;
             }
+
         }
 
-
-        //Metod 3. yöntem
-        static int sayiKarsilastirma(int A, int B)
+        static int Karsilastir3(int sayi1, int sayi2)
         {
-            return A > B ? A : B;
+            return sayi1 > sayi2 ? sayi1 : sayi2;
         }
 
-        // Method Ornek 
         static double KareAl(double sayi)
         {
             double kare = sayi * sayi;
             return kare;
         }
 
-
-        double SeriToplami(params double[] seri)
+        // Params çoklu değer alır 
+        static double SeriToplami(params double[] seri)
         {
             double toplam = 0;
             foreach (double s in seri)
             {
                 toplam += s;
             }
+
             return toplam;
-        } //Dışardan double veri alan dizi
+        }
 
-        void MetotTasarimi()
+
+    //Method Overloadin method aşırı yüklenmesi
+    /// <summary>
+    /// Satış yapan fonksiyon
+    /// </summary>
+    /// <param name="miktar"></param>
+    /// <param name="indirim"> </param>
+    /// <returns> </returns>
+    static double SalesUs(double miktar=0)
         {
-            Karsilastir(); // metod çağrıldı
-            int buyuk = sayiKarsilastir(3, 8); //2.metod çağrıldı
-            Console.WriteLine(buyuk);
-            sayiKarsilastirma(4, 15); // 3.metod çağrıldı
-
-            var x = KareAl(3);
-            double y = KareAl(x);
-            double toplam = SeriToplami(5.52, 15.12, 25.54, 13.13); // Params ile oluşturulan metod
-            Console.WriteLine("{0,5:0.##}", toplam);
-
-            Console.WriteLine(x); // Kareal metodu değişken içerisinde çağrıldı.
-            Console.WriteLine(y); // kareal metodu farklı bir değişkende çağrıldı.
-
-            Console.WriteLine("Metot bitti.");
-
+            return miktar * 1.18;
+        }
+    /// <summary>
+    /// Satış yapan fonksiyon
+    /// </summary>
+    /// <param name="miktar"></param>
+    /// <param name="indirim"> </param>
+    /// <returns> </returns>
+    static double SalesUs(double miktar, double indirim)
+        {
+            return miktar * (1.0 - indirim) * 1.18;
         }
     }
-}
+
