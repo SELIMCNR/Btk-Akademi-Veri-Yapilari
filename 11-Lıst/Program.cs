@@ -1,35 +1,44 @@
-﻿// See https://aka.ms/new-console-template for more information
-int x = 15;
-int [] Seri = new int[] { 70, 80, 90 }; // seri eleman dizisi
-   // List Tanımlama // referans tipli veri 
-List<int> numbers = new List<int>();  // referans tipli verilerde new kullanılır.
-  //2.yöntem list tanımlama
-var sayilar = new List<int>();
+/*
+ List <T>
+ 
+-Liste oluşturmak üzere kullanılır 
+-Type -> T  - > Yer tutucu 
+-> List <int>  integer değerlerden oluşan bir liste, tüm metotlar inte göre çalışacak
+-Tip güvenliği  "Type-Safe" 
+ */
 
-//3.yöntem tanımlama ve ekleme
-var numbers1 = new List<int>() { 10, 15, 20 };
 
-// ekleme yapma
-sayilar.Add(10);
-sayilar.Add(15);
-sayilar.Add(20);
-sayilar.Add(x); // değişken ekledik
-sayilar.AddRange(Seri); // diziyi listeye ekledik
-sayilar.AddRange(new int[] { 40, 50, 60, 70, 80 });
+//Liste tanımlama
+List<int> sayilar = new List<int> ();
 
-// araya ekleme yapma
-sayilar.Insert(3, 0); // 3. indise 0 elemeanını ekle
-sayilar.InsertRange(4, new int[] { 80, 90 }); // 4.indsten itibaren dizi elemanlarını rastgele ekle
+int x = 50;
 
-//Listeden eleman silme
-sayilar.RemoveAt(3);
-sayilar.RemoveAt(sayilar.IndexOf(10));//Dinamik silme işlemi 55.indekste elemanı sil
-                                      // dolaşma
-foreach (int n in sayilar)
+int[] Seri = new int[] { 70, 80, 90 };
+//listeye eleman ekleme
+sayilar.Add (10);
+sayilar.Add (20);
+sayilar.Add(25);
+sayilar.Add (x); //değişken üzerinden değer eklendi
+sayilar.AddRange (Seri); //dizi üzerinden değerler eklendi
+sayilar.AddRange (new int[] { 5,4,95});
+
+//Araya değerler eklem
+sayilar.Insert(0, 1907); // 0.indise ekle 1907
+sayilar.InsertRange(4, new int[] { 75, 85 });
+
+//Belirtilen değerleri silme
+sayilar.RemoveAt(3); //3.indisde elemanı sil
+sayilar.RemoveAt (sayilar.IndexOf(50));  //50 değerinin indisini bul ve sil
+
+
+//Dolaşma listede
+foreach (int li in sayilar)
 {
-    Console.Write($"{n,-5}");
+    Console.WriteLine($"{li,-5}");
 }
 
+//Pratik yöntem liste tanımlama atama
+var numbers = new List<int>() {10,15,20};
 
 
 Console.ReadKey();
