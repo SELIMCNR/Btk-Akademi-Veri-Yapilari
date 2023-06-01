@@ -1,0 +1,15 @@
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\bin\Debug\net6.0\11_C#AlgoritmikOrnekler.exe
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\bin\Debug\net6.0\11_C#AlgoritmikOrnekler.deps.json
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\bin\Debug\net6.0\11_C#AlgoritmikOrnekler.runtimeconfig.json
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\bin\Debug\net6.0\11_C#AlgoritmikOrnekler.dll
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\bin\Debug\net6.0\11_C#AlgoritmikOrnekler.pdb
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\obj\Debug\net6.0\11_C#AlgoritmikOrnekler.csproj.AssemblyReference.cache
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\obj\Debug\net6.0\11_C#AlgoritmikOrnekler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\obj\Debug\net6.0\11_C#AlgoritmikOrnekler.AssemblyInfoInputs.cache
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\obj\Debug\net6.0\11_C#AlgoritmikOrnekler.AssemblyInfo.cs
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\obj\Debug\net6.0\11_C#AlgoritmikOrnekler.csproj.CoreCompileInputs.cache
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\obj\Debug\net6.0\11_C#AlgoritmikOrnekler.dll
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\obj\Debug\net6.0\refint\11_C#AlgoritmikOrnekler.dll
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\obj\Debug\net6.0\11_C#AlgoritmikOrnekler.pdb
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\obj\Debug\net6.0\11_C#AlgoritmikOrnekler.genruntimeconfig.cache
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\11_C#AlgoritmikOrnekler\obj\Debug\net6.0\ref\11_C#AlgoritmikOrnekler.dll
