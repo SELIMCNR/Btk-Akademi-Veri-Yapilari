@@ -1,0 +1,15 @@
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\bin\Debug\net6.0\10_Değer_Referans.exe
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\bin\Debug\net6.0\10_Değer_Referans.deps.json
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\bin\Debug\net6.0\10_Değer_Referans.runtimeconfig.json
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\bin\Debug\net6.0\10_Değer_Referans.dll
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\bin\Debug\net6.0\10_Değer_Referans.pdb
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\obj\Debug\net6.0\10_Değer_Referans.csproj.AssemblyReference.cache
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\obj\Debug\net6.0\10_Değer_Referans.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\obj\Debug\net6.0\10_Değer_Referans.AssemblyInfoInputs.cache
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\obj\Debug\net6.0\10_Değer_Referans.AssemblyInfo.cs
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\obj\Debug\net6.0\10_Değer_Referans.csproj.CoreCompileInputs.cache
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\obj\Debug\net6.0\10_Değer_Referans.dll
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\obj\Debug\net6.0\refint\10_Değer_Referans.dll
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\obj\Debug\net6.0\10_Değer_Referans.pdb
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\obj\Debug\net6.0\10_Değer_Referans.genruntimeconfig.cache
+C:\Users\btk02\Desktop\Yeniklasor\bahar\algoritma\Algoritma-Giriş\Btk\10_Değer_Referans\obj\Debug\net6.0\ref\10_Değer_Referans.dll
